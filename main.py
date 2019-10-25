@@ -423,7 +423,7 @@ def main():
         if eval_cer < 0.17 :
             nsml.save('eval_limit')
         '''
-        # 매 5번의 epoch마다 저장하기
+        # 매 5번의 epoch마다 저장
         '''
         epoch_num+=1
         if (epoch_num%5==0) :
